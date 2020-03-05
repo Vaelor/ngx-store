@@ -9,6 +9,6 @@
 /**
  * Entry point for all public APIs of the package.
  */
-export * from './src/ngx-store';
+export * from './projects/ngx-store/src/lib/ngx-store';
 
 // This file only reexports content of the `src` folder. Keep it that way.

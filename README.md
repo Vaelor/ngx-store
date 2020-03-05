@@ -1,4 +1,11 @@
 # Angular Storage
+### Warning
+Careful this is a very experimental fork.
+It moves the project from rollup to the angular/cli library format.
+This seems to break compatibility with ViewEngine builds and I could not get the tests to run.
+As far as I could tell, it 'works' but I won't guarantee anything!
+
+If anyone has the time to clean that up or anything, feel free. I probably won't be able invest much time here.
 ### Decorators and services for cookies, session- and localStorage
 This library adds decorators that make it super easy to *automagically* save and restore variables using HTML5's `localStorage` and `sessionStorage`. It also provides Angular-Injectable Session- and LocalStorageService.
 
